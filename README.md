@@ -1,0 +1,1 @@
+# Aura__photostudio.cz
