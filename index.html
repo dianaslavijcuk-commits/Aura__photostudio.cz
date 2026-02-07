@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura__photostudio_ | Profesionální fotoateliér</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Навигация -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">
+        <img src="images/A.png" alt="Aura Studio" class="logo-img">
+        <span class="logo-text">Aura__photostudio_</span>
+      </a>
+      
+      <div class="nav-menu" id="navMenu">
+        <a href="#hero" class="nav-link" data-key="navHome">Domů</a>
+        <a href="#about" class="nav-link" data-key="navAbout">O nás</a>
+        <a href="#gallery" class="nav-link" data-key="navGallery">Galerie</a>
+        <a href="#services" class="nav-link" data-key="navServices">Vybavení</a>
+        <a href="#contact" class="nav-link" data-key="navContact">Kontakt</a>
+      </div>
+      
+      <div class="nav-right">
+        <!-- Переключатель языков -->
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="cs">CZ</button>
+          <button class="lang-btn" data-lang="ru">RU</button>
+          <button class="lang-btn" data-lang="ua">UA</button>
+        </div>
+        
+        <button class="btn-primary" id="openBooking" data-key="btnBook">
+          <i class="fas fa-calendar-alt"></i>
+          <span>Rezervace</span>
+        </button>
+        
+        <button class="mobile-toggle" id="mobileToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/background.jpg" alt="Studio Background">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge" data-key="heroBadge">Fotografie s duší</div>
+      <h1 class="hero-title" data-key="heroTitle">
+        Zachycujeme vaše<br>neopakovatelné okamžiky
+      </h1>
+      <p class="hero-subtitle" data-key="heroSubtitle">
+        S láskou k detailu a jemností. Přirozeně, s profesionálním přístupem a v příjemné atmosféře.
+      </p>
+      <div class="hero-buttons">
+        <button class="btn-glow" id="heroBookBtn" data-key="btnBookNow">
+          <span>Vytvořit rezervaci</span>
+          <i class="fas fa-arrow-right"></i>
+        </button>
+        <a href="#gallery" class="btn-outline" data-key="btnGallery">
+          <span>Prohlédnout galerii</span>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span data-key="scrollText">Scroll</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <span class="section-label" data-key="aboutLabel">O nás</span>
+          <h2 class="section-title" data-key="aboutTitle">
+            Vítejte v ateliéru Aura
+          </h2>
+          <p class="about-text" data-key="aboutText1">
+            Útulný a kreativní prostor pro focení v srdci města. Moderní fotostudio s profesionálním zázemím pro tvorbu vizuálního obsahu na vysoké úrovni.
+          </p>
+          <p class="about-text" data-key="aboutText2">
+            Flexibilní prostor je ideální pro rodinné focení, portréty i komerční projekty. Nabízíme kvalitní techniku, komfortní prostředí a spolehlivý servis.
+          </p>
+          <div class="about-features">
+            <div class="feature-item">
+              <i class="fas fa-camera"></i>
+              <span data-key="feature1">Profesionální technika</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-heart"></i>
+              <span data-key="feature2">Příjemná atmosféra</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-clock"></i>
+              <span data-key="feature3">Flexibilní hodiny</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="image-frame">
+            <img src="images/background.jpg" alt="Studio Interior">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-key="galleryLabel">Naše práce</span>
+        <h2 class="section-title" data-key="galleryTitle">Galerie</h2>
+        <p class="section-subtitle" data-key="gallerySubtitle">
+          Každý snímek má svůj příběh a emoci
+        </p>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item large">
+          <img src="images/background.jpg" alt="Photo 1">
+          <div class="gallery-overlay">
+            <span data-key="galleryPortrait">1</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/background.jpg" alt="Photo 2">
+          <div class="gallery-overlay">
+            <span data-key="galleryFamily">2</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/background.jpg" alt="Photo 3">
+          <div class="gallery-overlay">
+            <span data-key="galleryCreative">3</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/background.jpg" alt="Photo 4">
+          <div class="gallery-overlay">
+            <span data-key="galleryCommercial">4</span>
+          </div>
+        </div>
+        <div class="gallery-item wide">
+          <img src="images/background.jpg" alt="Photo 5">
+          <div class="gallery-overlay">
+            <span data-key="galleryLifestyle">5</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-label" data-key="contactLabel">Kontakt</span>
+          <h2 class="section-title" data-key="contactTitle">Napište nám</h2>
+          <p class="contact-text" data-key="contactText">
+            Máte otázky nebo chcete rezervovat termín? Neváhejte nás kontaktovat.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+420 730 237 937</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>dianaslavijcuk@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span data-key="contactAddress">Czech Republic</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-telegram-plane"></i></a>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <form class="contact-form" action="https://formspree.io/f/xojloval" method="POST">
+            <div class="form-group">
+              <label data-key="formName">Jméno</label>
+              <input type="text" name="name" required placeholder="Vaše jméno">
+            </div>
+            <div class="form-group">
+              <label data-key="formEmail">Email</label>
+              <input type="email" name="email" required placeholder="vas@email.cz">
+            </div>
+            <div class="form-group">
+              <label data-key="formMessage">Zpráva</label>
+              <textarea name="message" rows="4" required placeholder="Vaše zpráva..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit" data-key="formSend">
+              <span>Odeslat zprávu</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/A.png" alt="Aura Studio">
+          <span>Aura__photostudio_</span>
+        </div>
+        <p class="footer-text" data-key="footerText">
+          © 2026 Aura__photostudio_. Všechna práva vyhrazena.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking Modal -->
+  <div class="modal" id="bookingModal">
+    <div class="modal-content">
+      <button class="modal-close" id="closeModal">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-header">
+        <h2 data-key="modalTitle">Nová rezervace</h2>
+        <p data-key="modalSubtitle">Vyplňte formulář a my se vám ozveme</p>
+      </div>
+      <form class="booking-form" action="https://formspree.io/f/xojloval" method="POST">
+        <input type="hidden" name="form_type" value="booking">
+        <input type="hidden" name="language" id="formLanguage" value="cs">
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label data-key="modalDate">Datum</label>
+            <input type="date" name="date" id="bookingDate" required>
+          </div>
+          <div class="form-group">
+            <label data-key="modalTime">Čas</label>
+            <select name="time" id="bookingTime" required>
+              <option value="">Vyberte čas</option>
+              <option value="09:00">09:00</option>
+              <option value="10:00">10:00</option>
+              <option value="11:00">11:00</option>
+              <option value="12:00">12:00</option>
+              <option value="13:00">13:00</option>
+              <option value="14:00">14:00</option>
+              <option value="15:00">15:00</option>
+              <option value="16:00">16:00</option>
+              <option value="17:00">17:00</option>
+              <option value="18:00">18:00</option>
+            </select>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label data-key="modalName">Jméno a příjmení</label>
+          <input type="text" name="name" required placeholder="Vaše jméno">
+        </div>
+        
+        <div class="form-group">
+          <label data-key="modalContact">Kontakt (telefon nebo email)</label>
+          <input type="text" name="contact" required placeholder="+420 xxx xxx xxx">
+        </div>
+        
+        <div class="form-group">
+          <label data-key="modalType">Typ focení</label>
+          <select name="photo_type">
+            <option value="" data-key="selectType">Vyberte typ</option>
+            <option value="portrait" data-key="typePortrait">Portrét</option>
+            <option value="family" data-key="typeFamily">Rodinné</option>
+            <option value="couple" data-key="typeCouple">Párové</option>
+            <option value="commercial" data-key="typeCommercial">Komerční</option>
+            <option value="creative" data-key="typeCreative">Kreativní</option>
+            <option value="other" data-key="typeOther">Jiné</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label data-key="modalNotes">Poznámky</label>
+          <textarea name="notes" rows="3" placeholder="Speciální požadavky..."></textarea>
+        </div>
+        
+        <button type="submit" class="btn-submit" data-key="modalSubmit">
+          <span>Odeslat rezervaci</span>
+          <i class="fas fa-check"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
