@@ -1,4 +1,4 @@
-// ===== Translations =====
+// translations
 const translations = {
   cs: {
     navHome: "Domů",
@@ -8,15 +8,16 @@ const translations = {
     navContact: "Kontakt",
     btnBook: "Rezervace",
     heroBadge: "Fotografie s duší",
-    heroTitle: "Zachycujeme vaše<br>neopakovatelné okamžiky",
-    heroSubtitle: "S láskou k detailu a jemností. Přirozeně, s profesionálním přístupem a v příjemné atmosféře.",
+    heroTitle: "Foť. Tvoř.<br>Užívej si výsledek",
+    heroSubtitle: "Studio pro stylové záběry, obsah a důležité příběhy.",
     btnBookNow: "Vytvořit rezervaci",
     btnGallery: "Prohlédnout galerii",
     scrollText: "Scroll",
     aboutLabel: "O nás",
     aboutTitle: "Vítejte v ateliéru Aura",
-    aboutText1: "Útulný a kreativní prostor pro focení v srdci města. Moderní fotostudio s profesionálním zázemím pro tvorbu vizuálního obsahu na vysoké úrovni.",
-    aboutText2: "Flexibilní prostor je ideální pro rodinné focení, portréty i komerční projekty. Nabízíme kvalitní techniku, komfortní prostředí a spolehlivý servis.",
+    aboutText1: "Aura je stylový fotoateliér s jedinečnou atmosférou a pečlivě navrženými interiéry. Místo, kde se pohodlí setkává s estetikou a každý záběr získává charakter.",
+    aboutText2: "Nabízíme několik tematických zón — od světlé ložnice pro romantické a rodinné focení, přes dětský koutek plný detailů, až po barevná pozadí a klasickou bílou scénu pro fashion a komerční projekty..",
+    aboutText3: "Ateliér Aura je ideální jak pro profesionální fotografy, tak pro ty, kteří stojí před objektivem poprvé. Flexibilní prostor a příjemná atmosféra vám pomohou cítit se přirozeně a užít si focení naplno.",
     feature1: "Profesionální technika",
     feature2: "Příjemná atmosféra",
     feature3: "Flexibilní hodiny",
@@ -72,15 +73,16 @@ const translations = {
     navContact: "Контакты",
     btnBook: "Бронирование",
     heroBadge: "Фотография с душой",
-    heroTitle: "Запечатлеваем ваши<br>неповторимые моменты",
-    heroSubtitle: "С любовью к деталям и нежностью. Естественно, с профессиональным подходом и в приятной атмосфере.",
+    heroTitle: "Снимай. Создавай.<br>Наслаждайся результатом.",
+    heroSubtitle: "Студия для стильных кадров, контента и важных историй.",
     btnBookNow: "Создать бронирование",
     btnGallery: "Смотреть галерею",
     scrollText: "Вниз",
     aboutLabel: "О нас",
     aboutTitle: "Добро пожаловать в студию Aura",
-    aboutText1: "Уютное и креативное пространство для фотосъемки в сердце города. Современная фотостудия с профессиональной инфраструктурой для создания визуального контента высокого уровня.",
-    aboutText2: "Гибкое пространство идеально подходит для семейной съемки, портретов и коммерческих проектов. Мы предлагаем качественную технику, комфортную обстановку и надежный сервис.",
+    aboutText1: "Aura — это стильная фотостудия с уникальной атмосферой и тщательно продуманными интерьерами. Место, где комфорт встречается с эстетикой, а каждый кадр приобретает характер.",
+    aboutText2: "Мы предлагаем несколько тематических зон — от светлой спальни для романтических и семейных съёмок, через детский уголок, наполненный деталями, до цветных фонов и классической белой сцены для fashion и коммерческих проектов.",
+    aboutText3: "Фотостудия Aura идеально подходит как для профессиональных фотографов, так и для тех, кто впервые становится перед объективом. Гибкое пространство и приятная атмосфера помогут вам чувствовать себя естественно и получить настоящее удовольствие от съёмки.",
     feature1: "Профессиональная техника",
     feature2: "Приятная атмосфера",
     feature3: "Гибкие часы",
@@ -136,15 +138,16 @@ const translations = {
     navContact: "Контакти",
     btnBook: "Бронювання",
     heroBadge: "Фотографія з душею",
-    heroTitle: "Закарбовуємо ваші<br>неповторні моменти",
-    heroSubtitle: "З любов'ю до деталей та ніжністю. Природно, з професійним підходом та в приємній атмосфері.",
+    heroTitle: "Знімай. Створюй.<br>Насолоджуйся результатом. ",
+    heroSubtitle: "Студія для стильних кадрів, контенту та важливих історій.",
     btnBookNow: "Створити бронювання",
     btnGallery: "Переглянути галерею",
     scrollText: "Вниз",
     aboutLabel: "Про нас",
     aboutTitle: "Ласкаво просимо до студії Aura",
-    aboutText1: "Затишний та креативний простір для фотозйомки в серці міста. Сучасна фотостудія з професійною інфраструктурою для створення візуального контенту високого рівня.",
-    aboutText2: "Гнучкий простір ідеально підходить для сімейної зйомки, портретів та комерційних проектів. Ми пропонуємо якісну техніку, комфортне середовище та надійний сервіс.",
+    aboutText1: "Aura — це стильна фотостудія з унікальною атмосферою та ретельно продуманими інтер’єрами. Місце, де комфорт зустрічається з естетикою, а кожен кадр набуває характеру.",
+    aboutText2: "Ми пропонуємо кілька тематичних зон — від світлої спальні для романтичних і сімейних зйомок, через дитячий куточок, наповнений деталями, до кольорових фонів і класичної білої сцени для fashion та комерційних проєктів.",
+    aboutText3: "Фотостудія Aura ідеально підходить як для професійних фотографів, так і для тих, хто вперше стає перед об’єктивом. Гнучкий простір і приємна атмосфера допоможуть вам почуватися природно та отримати справжнє задоволення від зйомки.",
     feature1: "Професійна техніка",
     feature2: "Приємна атмосфера",
     feature3: "Гнучкі години",
@@ -194,10 +197,10 @@ const translations = {
   }
 };
 
-// ===== Current Language =====
+
 let currentLang = localStorage.getItem('aura_lang') || 'cs';
 
-// ===== DOM Elements =====
+
 const navbar = document.getElementById('navbar');
 const mobileToggle = document.getElementById('mobileToggle');
 const navMenu = document.getElementById('navMenu');
@@ -208,9 +211,9 @@ const closeModalBtn = document.getElementById('closeModal');
 const bookingDate = document.getElementById('bookingDate');
 const formLanguage = document.getElementById('formLanguage');
 
-// ===== Initialize =====
+// Initialize 
 document.addEventListener('DOMContentLoaded', () => {
-  // Set initial language
+
   changeLanguage(currentLang);
   
   // Initialize event listeners
@@ -229,17 +232,17 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// ===== Language Switcher =====
+//Language Switcher 
 function changeLanguage(lang) {
   if (!translations[lang]) return;
   
   currentLang = lang;
   localStorage.setItem('aura_lang', lang);
   
-  // Update HTML lang attribute
+  //Update HTML lang attribute
   document.documentElement.lang = lang;
   
-  // Update active language button
+  //Update active language button
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.remove('active');
     if (btn.dataset.lang === lang) {
@@ -247,7 +250,7 @@ function changeLanguage(lang) {
     }
   });
   
-  // Update all translatable elements
+  //Update all translatable elements
   document.querySelectorAll('[data-key]').forEach(el => {
     const key = el.dataset.key;
     if (translations[lang][key]) {
@@ -259,12 +262,12 @@ function changeLanguage(lang) {
     }
   });
   
-  // Update form language field
+  //Update form language field
   if (formLanguage) {
     formLanguage.value = lang;
   }
   
-  // Update select options
+  //Update select options
   updateSelectOptions(lang);
 }
 
@@ -281,9 +284,9 @@ function updateSelectOptions(lang) {
   }
 }
 
-// ===== Event Listeners =====
+//Event Listeners
 function initEventListeners() {
-  // Language buttons
+  //Language buttons
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
       const lang = e.target.dataset.lang;
@@ -297,7 +300,7 @@ function initEventListeners() {
     });
   });
   
-  // Mobile menu toggle
+  //Mobile menu toggle
   if (mobileToggle) {
     mobileToggle.addEventListener('click', () => {
       navMenu.classList.toggle('active');
@@ -305,7 +308,7 @@ function initEventListeners() {
     });
   }
   
-  // Close mobile menu on link click
+  //Close mobile menu on link click
   document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
       navMenu.classList.remove('active');
@@ -313,7 +316,7 @@ function initEventListeners() {
     });
   });
   
-  // Modal open/close
+  //Modal open/close
   if (openBookingBtn) {
     openBookingBtn.addEventListener('click', openModal);
   }
@@ -326,7 +329,7 @@ function initEventListeners() {
     closeModalBtn.addEventListener('click', closeModal);
   }
   
-  // Close modal on outside click
+  //Close modal on outside click
   if (bookingModal) {
     bookingModal.addEventListener('click', (e) => {
       if (e.target === bookingModal) {
@@ -335,26 +338,26 @@ function initEventListeners() {
     });
   }
   
-  // Close modal on Escape key
+  //Close modal on Escape key
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && bookingModal.classList.contains('active')) {
       closeModal();
     }
   });
   
-  // Form submissions
+  //Form submissions
   document.querySelectorAll('form').forEach(form => {
     form.addEventListener('submit', handleFormSubmit);
   });
 }
 
-// ===== Modal Functions =====
+//Modal Functions 
 function openModal() {
   if (bookingModal) {
     bookingModal.classList.add('active');
     document.body.style.overflow = 'hidden';
     
-    // Update form language
+    //Update form language
     if (formLanguage) {
       formLanguage.value = currentLang;
     }
@@ -368,14 +371,14 @@ function closeModal() {
   }
 }
 
-// ===== Form Submit Handler =====
+//Form Submit Handler 
 async function handleFormSubmit(e) {
   e.preventDefault();
   const form = e.target;
   const submitBtn = form.querySelector('button[type="submit"]');
   const originalText = submitBtn.innerHTML;
   
-  // Show loading state
+  //Show loading state
   submitBtn.disabled = true;
   const loadingTexts = {
     cs: 'Odesílání...',
@@ -422,9 +425,9 @@ async function handleFormSubmit(e) {
   }
 }
 
-// ===== Scroll Effects =====
+//Scroll Effects
 function initScrollEffects() {
-  // Navbar scroll effect
+  //Navbar scroll effect
   window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
       navbar.classList.add('scrolled');
@@ -433,7 +436,7 @@ function initScrollEffects() {
     }
   });
   
-  // Smooth scroll for anchor links
+  //Smooth scroll for anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
       e.preventDefault();
@@ -450,9 +453,9 @@ function initScrollEffects() {
   });
 }
 
-// ===== Animations =====
+//Animations
 function initAnimations() {
-  // Intersection Observer for reveal animations
+  //Intersection Observer for reveal animations
   const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -50px 0px'
@@ -466,26 +469,26 @@ function initAnimations() {
     });
   }, observerOptions);
   
-  // Observe sections for animation
+  // observer
   document.querySelectorAll('section').forEach(section => {
     section.classList.add('reveal');
     observer.observe(section);
   });
   
-  // Gallery items stagger animation
+  //gallery items stagger animation
   const galleryItems = document.querySelectorAll('.gallery-item');
   galleryItems.forEach((item, index) => {
     item.style.animationDelay = `${index * 0.1}s`;
   });
   
-  // Service cards stagger animation
+  //service cards stagger animation
   const serviceCards = document.querySelectorAll('.service-card');
   serviceCards.forEach((card, index) => {
     card.style.animationDelay = `${index * 0.1}s`;
   });
 }
 
-// ===== Parallax Effect =====
+//parallax Effect
 window.addEventListener('scroll', () => {
   const scrolled = window.pageYOffset;
   const parallaxElements = document.querySelectorAll('.hero-bg img');
@@ -496,12 +499,12 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// ===== Gallery Lightbox (Simple) =====
+//gallery Lightbox
 document.querySelectorAll('.gallery-item').forEach(item => {
   item.addEventListener('click', () => {
     const img = item.querySelector('img');
     if (img) {
-      // Create lightbox
+      //create lightbox
       const lightbox = document.createElement('div');
       lightbox.className = 'lightbox';
       lightbox.innerHTML = `
@@ -512,7 +515,7 @@ document.querySelectorAll('.gallery-item').forEach(item => {
       document.body.appendChild(lightbox);
       document.body.style.overflow = 'hidden';
       
-      // Close lightbox
+      //close lightbox
       lightbox.addEventListener('click', (e) => {
         if (e.target !== lightbox.querySelector('img')) {
           lightbox.remove();
@@ -523,7 +526,7 @@ document.querySelectorAll('.gallery-item').forEach(item => {
   });
 });
 
-// Add lightbox styles dynamically
+//add lightbox styles dynamically
 const lightboxStyles = document.createElement('style');
 lightboxStyles.textContent = `
   .lightbox {
